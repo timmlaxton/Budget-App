@@ -13,5 +13,9 @@ var UIController = (function(){
 // Global App Controller
 var controller = (function(budgetCtrl, UICtrl){
 
-  document.quertySelector('.add__btn')
+  document.querySelector('.add__btn').addEventlistener('click', function(){
+
+  });
+document.addEventListener()
+
 })(budgetController, UIController);
